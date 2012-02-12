@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E9272FE14E75D5100C52C2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9272FD14E75D5100C52C2A /* UIKit.framework */; };
+		2E92730014E75D5100C52C2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9272FF14E75D5100C52C2A /* Foundation.framework */; };
+		2E92730214E75D5100C52C2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E92730114E75D5100C52C2A /* CoreGraphics.framework */; };
+		2E92730814E75D5100C52C2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E92730614E75D5100C52C2A /* InfoPlist.strings */; };
+		2E92730A14E75D5100C52C2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92730914E75D5100C52C2A /* main.m */; };
+		2E92730E14E75D5100C52C2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92730D14E75D5100C52C2A /* AppDelegate.m */; };
+		2E92731114E75D5100C52C2A /* HouseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92731014E75D5100C52C2A /* HouseTableViewController.m */; };
+		2E92731814E75D5100C52C2A /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92731714E75D5100C52C2A /* OtherViewController.m */; };
+		2E92733214E75FC000C52C2A /* calc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E92733114E75FC000C52C2A /* calc.cpp */; };
+		2E92733814E7616900C52C2A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E92733414E7616900C52C2A /* first.png */; };
+		2E92733914E7616900C52C2A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E92733514E7616900C52C2A /* first@2x.png */; };
+		2E92733A14E7616900C52C2A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E92733614E7616900C52C2A /* second.png */; };
+		2E92733B14E7616900C52C2A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E92733714E7616900C52C2A /* second@2x.png */; };
+		2E92734414E7617600C52C2A /* HouseTableViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E92733C14E7617600C52C2A /* HouseTableViewController_iPad.xib */; };
+		2E92734514E7617600C52C2A /* HouseTableViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E92733E14E7617600C52C2A /* HouseTableViewController_iPhone.xib */; };
+		2E92734614E7617600C52C2A /* OtherViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E92734014E7617600C52C2A /* OtherViewController_iPad.xib */; };
+		2E92734714E7617600C52C2A /* OtherViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E92734214E7617600C52C2A /* OtherViewController_iPhone.xib */; };
+		2E92734C14E762A200C52C2A /* HouseNaviViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E92734A14E762A200C52C2A /* HouseNaviViewController.xib */; };
+		2E92734E14E7641000C52C2A /* HouseNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92734D14E7641000C52C2A /* HouseNaviViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E9272F914E75D5100C52C2A /* calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9272FD14E75D5100C52C2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E9272FF14E75D5100C52C2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E92730114E75D5100C52C2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E92730514E75D5100C52C2A /* calc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "calc-Info.plist"; sourceTree = "<group>"; };
+		2E92730714E75D5100C52C2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E92730914E75D5100C52C2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E92730B14E75D5100C52C2A /* calc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "calc-Prefix.pch"; sourceTree = "<group>"; };
+		2E92730C14E75D5100C52C2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E92730D14E75D5100C52C2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E92730F14E75D5100C52C2A /* HouseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseTableViewController.h; sourceTree = "<group>"; };
+		2E92731014E75D5100C52C2A /* HouseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseTableViewController.m; sourceTree = "<group>"; };
+		2E92731614E75D5100C52C2A /* OtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		2E92731714E75D5100C52C2A /* OtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		2E92733114E75FC000C52C2A /* calc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = calc.cpp; sourceTree = "<group>"; };
+		2E92733414E7616900C52C2A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = calc/first.png; sourceTree = SOURCE_ROOT; };
+		2E92733514E7616900C52C2A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "calc/first@2x.png"; sourceTree = SOURCE_ROOT; };
+		2E92733614E7616900C52C2A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = calc/second.png; sourceTree = SOURCE_ROOT; };
+		2E92733714E7616900C52C2A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "calc/second@2x.png"; sourceTree = SOURCE_ROOT; };
+		2E92733D14E7617600C52C2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = calc/en.lproj/HouseTableViewController_iPad.xib; sourceTree = SOURCE_ROOT; };
+		2E92733F14E7617600C52C2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = calc/en.lproj/HouseTableViewController_iPhone.xib; sourceTree = SOURCE_ROOT; };
+		2E92734114E7617600C52C2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = calc/en.lproj/OtherViewController_iPad.xib; sourceTree = SOURCE_ROOT; };
+		2E92734314E7617600C52C2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = calc/en.lproj/OtherViewController_iPhone.xib; sourceTree = SOURCE_ROOT; };
+		2E92734814E762A200C52C2A /* HouseNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseNaviViewController.h; sourceTree = "<group>"; };
+		2E92734A14E762A200C52C2A /* HouseNaviViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseNaviViewController.xib; sourceTree = "<group>"; };
+		2E92734D14E7641000C52C2A /* HouseNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseNaviViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E9272F614E75D5100C52C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9272FE14E75D5100C52C2A /* UIKit.framework in Frameworks */,
+				2E92730014E75D5100C52C2A /* Foundation.framework in Frameworks */,
+				2E92730214E75D5100C52C2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E9272EE14E75D5100C52C2A = {
+			isa = PBXGroup;
+			children = (
+				2E92730314E75D5100C52C2A /* calc */,
+				2E9272FC14E75D5100C52C2A /* Frameworks */,
+				2E9272FA14E75D5100C52C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E9272FA14E75D5100C52C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E9272F914E75D5100C52C2A /* calc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E9272FC14E75D5100C52C2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E9272FD14E75D5100C52C2A /* UIKit.framework */,
+				2E9272FF14E75D5100C52C2A /* Foundation.framework */,
+				2E92730114E75D5100C52C2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E92730314E75D5100C52C2A /* calc */ = {
+			isa = PBXGroup;
+			children = (
+				2E92733314E7607700C52C2A /* xib */,
+				2E92732F14E75EE400C52C2A /* src */,
+				2E92730414E75D5100C52C2A /* Supporting Files */,
+			);
+			path = calc;
+			sourceTree = "<group>";
+		};
+		2E92730414E75D5100C52C2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E92730514E75D5100C52C2A /* calc-Info.plist */,
+				2E92730614E75D5100C52C2A /* InfoPlist.strings */,
+				2E92730914E75D5100C52C2A /* main.m */,
+				2E92730B14E75D5100C52C2A /* calc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E92732F14E75EE400C52C2A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2E92733014E75FC000C52C2A /* util */,
+				2E92730C14E75D5100C52C2A /* AppDelegate.h */,
+				2E92730D14E75D5100C52C2A /* AppDelegate.m */,
+				2E92730F14E75D5100C52C2A /* HouseTableViewController.h */,
+				2E92731014E75D5100C52C2A /* HouseTableViewController.m */,
+				2E92733C14E7617600C52C2A /* HouseTableViewController_iPad.xib */,
+				2E92733E14E7617600C52C2A /* HouseTableViewController_iPhone.xib */,
+				2E92731614E75D5100C52C2A /* OtherViewController.h */,
+				2E92731714E75D5100C52C2A /* OtherViewController.m */,
+				2E92734014E7617600C52C2A /* OtherViewController_iPad.xib */,
+				2E92734214E7617600C52C2A /* OtherViewController_iPhone.xib */,
+				2E92733414E7616900C52C2A /* first.png */,
+				2E92733514E7616900C52C2A /* first@2x.png */,
+				2E92733614E7616900C52C2A /* second.png */,
+				2E92733714E7616900C52C2A /* second@2x.png */,
+				2E92734814E762A200C52C2A /* HouseNaviViewController.h */,
+				2E92734D14E7641000C52C2A /* HouseNaviViewController.m */,
+				2E92734A14E762A200C52C2A /* HouseNaviViewController.xib */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		2E92733014E75FC000C52C2A /* util */ = {
+			isa = PBXGroup;
+			children = (
+				2E92733114E75FC000C52C2A /* calc.cpp */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		2E92733314E7607700C52C2A /* xib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E9272F814E75D5100C52C2A /* calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E92732B14E75D5200C52C2A /* Build configuration list for PBXNativeTarget "calc" */;
+			buildPhases = (
+				2E9272F514E75D5100C52C2A /* Sources */,
+				2E9272F614E75D5100C52C2A /* Frameworks */,
+				2E9272F714E75D5100C52C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calc;
+			productName = calc;
+			productReference = 2E9272F914E75D5100C52C2A /* calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E9272F014E75D5100C52C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2E9272F314E75D5100C52C2A /* Build configuration list for PBXProject "calc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E9272EE14E75D5100C52C2A;
+			productRefGroup = 2E9272FA14E75D5100C52C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E9272F814E75D5100C52C2A /* calc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E9272F714E75D5100C52C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E92730814E75D5100C52C2A /* InfoPlist.strings in Resources */,
+				2E92733814E7616900C52C2A /* first.png in Resources */,
+				2E92733914E7616900C52C2A /* first@2x.png in Resources */,
+				2E92733A14E7616900C52C2A /* second.png in Resources */,
+				2E92733B14E7616900C52C2A /* second@2x.png in Resources */,
+				2E92734414E7617600C52C2A /* HouseTableViewController_iPad.xib in Resources */,
+				2E92734514E7617600C52C2A /* HouseTableViewController_iPhone.xib in Resources */,
+				2E92734614E7617600C52C2A /* OtherViewController_iPad.xib in Resources */,
+				2E92734714E7617600C52C2A /* OtherViewController_iPhone.xib in Resources */,
+				2E92734C14E762A200C52C2A /* HouseNaviViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E9272F514E75D5100C52C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E92730A14E75D5100C52C2A /* main.m in Sources */,
+				2E92730E14E75D5100C52C2A /* AppDelegate.m in Sources */,
+				2E92731114E75D5100C52C2A /* HouseTableViewController.m in Sources */,
+				2E92731814E75D5100C52C2A /* OtherViewController.m in Sources */,
+				2E92733214E75FC000C52C2A /* calc.cpp in Sources */,
+				2E92734E14E7641000C52C2A /* HouseNaviViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E92730614E75D5100C52C2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E92730714E75D5100C52C2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E92733C14E7617600C52C2A /* HouseTableViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E92733D14E7617600C52C2A /* en */,
+			);
+			name = HouseTableViewController_iPad.xib;
+			path = xib;
+			sourceTree = "<group>";
+		};
+		2E92733E14E7617600C52C2A /* HouseTableViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E92733F14E7617600C52C2A /* en */,
+			);
+			name = HouseTableViewController_iPhone.xib;
+			path = xib;
+			sourceTree = "<group>";
+		};
+		2E92734014E7617600C52C2A /* OtherViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E92734114E7617600C52C2A /* en */,
+			);
+			name = OtherViewController_iPad.xib;
+			path = xib;
+			sourceTree = "<group>";
+		};
+		2E92734214E7617600C52C2A /* OtherViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E92734314E7617600C52C2A /* en */,
+			);
+			name = OtherViewController_iPhone.xib;
+			path = xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E92732914E75D5200C52C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E92732A14E75D5200C52C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E92732C14E75D5200C52C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calc/calc-Prefix.pch";
+				INFOPLIST_FILE = "calc/calc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E92732D14E75D5200C52C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calc/calc-Prefix.pch";
+				INFOPLIST_FILE = "calc/calc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E9272F314E75D5100C52C2A /* Build configuration list for PBXProject "calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E92732914E75D5200C52C2A /* Debug */,
+				2E92732A14E75D5200C52C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E92732B14E75D5200C52C2A /* Build configuration list for PBXNativeTarget "calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E92732C14E75D5200C52C2A /* Debug */,
+				2E92732D14E75D5200C52C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E9272F014E75D5100C52C2A /* Project object */;
+}
